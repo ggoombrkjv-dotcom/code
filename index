@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>យ៉ុន ហុង Website</title>
+    <meta name="title" content="Nattapat2871 Portfolio Website" />
+    <meta name="description"
+        content="Discover the portfolio of Nattapat2871, featuring web development, design projects, and creative works. Explore skills and experiences in IT and digital innovation." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://yunhong.loveyou.online/" />
+    <meta property="og:title" content="Nattapat2871 Portfolio Website" />
+    <meta property="og:description"
+        content="Discover the portfolio of Nattapat2871, featuring web development, design projects, and creative works. Explore skills and experiences in IT and digital innovation." />
+    <meta property="og:image" content="https://portfolio.nattapat2871.online/media/meta-tags.png" />
+
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://yunhong.loveyou.online/" />
+    <meta property="twitter:title" content="Nattapat2871 Portfolio Website" />
+    <meta property="twitter:description"
+        content="Discover the portfolio of Nattapat2871, featuring web development, design projects, and creative works. Explore skills and experiences in IT and digital innovation." />
+    <meta property="og:image" content="https://portfolio.nattapat2871.online/media/meta-tags.png" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="media/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>យ៉ុន.ហុង.com
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"> <a href="#">Home</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> <a
+                        href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"> <a
+                        href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"> <a
+                        href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> <a
+                        href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Service</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="main-container" id="home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+            <div class="image ellipse-switcher" id="media-ellipse" data-aos="zoom-out" data-aos-duration="900">
+                <img src="media/hutao.jpg" alt="Profile Image" class="media-item active" id="ellipse-image">
+                <video class="media-item" id="ellipse-video" autoplay muted loop playsinline>
+                    <source src="/media/hutao.mp4" type="video/mp4">
+                    https://github.com/ggoombrkjv-dotcom.
+                </video>
+            </div>
+
+            <div class="content-and-player-wrapper">
+
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                        Hey I'm
+                        <span>យ៉ុន ហុង</span>
+                    </h1>
+                    <h2 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="850">I'm a <span
+                            class="changing-text"></span></span><span class="fixed-bar"> │</span></h2>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hi bro I'm live in Cambodia.
+                        ខ្ញុំជាវិស្វករផ្នែកទន់និងនិស្សិតអ្នកអភិវឌ្ឍន៍ជ័រពេញ។ 
+បាទ ហើយឥឡូវនេះខ្ញុំជាសិស្សដែលកំពុងស្វែងរកបទពិសោធន៍ដើម្បីធ្វើតាមក្តីសុបិន្តរបស់ខ្ញុំ។ ខ្ញុំត្រូវធ្វើវានៅថ្ងៃណាមួយ។ (នេះ 
+វិធីល្អបំផុតដើម្បីទស្សន៍ទាយអនាគតគឺបង្កើតវា)
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/ggoombrkjv-dotcom" data-aos="fade-up" data-aos-duration="1500"
+                            data-aos-delay="400">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://web.facebook.com/y.not.hong.204914" data-aos="fade-up" data-aos-duration="1500"
+                            data-aos-delay="550">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href=" data-aos="fade-up" data-aos-duration="1500"
+                            data-aos-delay="700">
+                            <i class="fa-brands fa-line"></i>
+                        </a>
+                        <a href="https://discord.gg/Bkhvj8H4" data-aos="fade-up"
+                            data-aos-duration="1500" data-aos-delay="850">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                    </div>
+                    <div class="btn-group" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1000">
+                        <button class="btn-main"
+                            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });">
+                            Hire me
+                        </button>
+                        <a href="https://github.com/sponsors/ggoombrkjv-dotcom" target="_blank" rel="noopener noreferrer"
+                            class="btn-main sponsor-btn">
+                            <i class="fa-regular fa-heart"></i> Sponsor
+                        </a>
+                    </div>
+                </div>
+                <div
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="volume-control"></div>
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="C:\Users\7PC\Desktop\photo_2025-08-17_17-09-59.jpg" alt="" />
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500">personal information.
+                        ព័ត៌មានផ្ទាល់ខ្លួន។
+                    </div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        <h class="intro">my name is :</h> យ៉ុន ហុង (note) <br>
+                        I'm ១៥ year old <br>
+                        <h class="intro">birtday :</h> Monday ១៨ʳᵈ December 2009 <br>
+                        <h class="intro">ethnicty :</h> Khmer , <h class="intro">nationality :</h> Cambodia <br>
+                        Buddhism <br>
+                        <h class="intro">Military status :</h> Not yet conscripted <br>
+                        <h class="intro">Weight :</h> 75 , <h class="intro">Height :</h> ១៦៤
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Work History
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+                        <h class="day">• 12/2024- now</h> food delivery Grab driver <br>
+                        <h class="day">• 05/2024 - now </h> web app game Developer freelance <br>
+                        <h class="day">• 02/2024 - 06/2024</h> Temporary daily employee, 7-11 Ton Phayom branch <br>
+                    </p>
+                    </p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">2</div>
+                        <div class="exp">
+                            Year Of <br>
+                            experience <br>
+                            coding
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxes">
+                    <div class="Educational" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
+                        Educational records <h>🎓 🖋️</h>
+                    </div>
+                    <div class="box">
+                        <div class="topic-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">
+                            Koymeng HighSchool,, <br>
+                            humanities English Program(EP)</div>
+                        <div class="per-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">2024 -
+                            now</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">
+                            Koymeng HighSchool,</div><br><br>
+                        <div class="per-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">2020 -
+                            2023</div>
+
+                    </div>
+                    <div class="box">
+                        <div class="topic-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="750">
+                            Buddhist Theology (Pali) </div>
+                        <div class="per-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="900">4/9</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1050">
+                            Chamkar Chek primary School</div>
+                        <div class="per-s" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1200">
+                            2011-2018</div>
+                    </div>
+                    <div class="box-skills" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">My
+                        Skills</div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">HTML CSS
+                            JS<br>(Front-End)</div>
+                        <div class="per" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="700">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">Python
+                        </div>
+                        <div class="per" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="800">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="700">English
+                            communication</div>
+                        <div class="per" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="900">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="800"></div>
+                        <div class="per" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1000"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span data-aos="fade-up" data-aos-duration="1200">My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-window-restore"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Web Devlopment
+                    </div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> ការកសាងនិងការថែរក្សា 
+គេហទំព័រសម្រាប់អ៊ីនធឺណិត។ វាមានពីរផ្នែកសំខាន់ដែលមានផ្នែកខាងមុខនិងខាងក្រោយ
+                        <br>គេហទំព័រដែលអ្នកឃើញនៅទីនេះគឺមួយនេះ។
+                    </p>
+                    <a href="#" class="more-button" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="300">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-solid fa-star"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">Rimuru gives you
+                        the primogem </div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">គេហទំព័រដែលអ្នកឃើញនៅទីនេះគឺមួយនេះ។</p>
+                    <a href="" class="more-button"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="450">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-solid fa-radio"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Jukebox Slime🎵
+                    </div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">បូតតន្ត្រី Discord ដែលប្រើ 
+លេងពាក្យបញ្ជា និងមានប៊ូតុង និងរូបភាពតូចៗ។ UI ដ៏ស្រស់ស្អាត។ ស្តាប់ទៅអស្ចារ្យ និងងាយស្រួលប្រើ</p>
+                    <a href="#" class="more-button" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="600">more...</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-tv"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650">
+                        <p class="thai-font">Anime</p>
+                    </div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650">Discord bot ដែលប្រមូលថ្មី។ 
+និងគំនូរជីវចលដែលកំពុងពេញនិយមដែលត្រូវបានណែនាំដោយ AI របស់ Gemini និងរួមបញ្ចូលប្រភពនៃការផ្សាយដោយឥតគិតថ្លៃ មិនថាវាជា 
+anime ឬ anime ចាស់នឹងចេញនៅប៉ុន្មានខែខាងមុខនេះ ដែលនឹងត្រូវបានជូនដំណឹងនៅក្នុង anime 
+សារ</p>
+                    <a href="#" class="more-button" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="750">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Minecraft Server
+                    </div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">ម៉ាស៊ីនមេទូទៅ អ្នកអាចដំឡើងបាន។ 
+mods និង plugins ដើម្បីលេងជាមួយមិត្តរបស់អ្នកដោយប្រើ host server ហើយភ្ជាប់តាមរយៈ ip
+                    <p class="mc-ip" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="750">
+                        play.nattapat2871.online </p>
+                    </p>
+                    <a href="https://mc.nattapat2871.online/" class="more-button" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="850">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">Rurina Ame</div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">Discord Bot AI ឆ្លាតវៃ 
+ជំនួយការត្រូវបានបង្កើតឱ្យលើសពី bot ធម្មតា។ ស្នូលរបស់ខ្ញុំត្រូវបានដំណើរការដោយ Google Gemini 1.5 
+បច្ចេកវិទ្យា Flash ផ្តល់ឱ្យខ្ញុំនូវសមត្ថភាពចម្រុះ និងធ្វើឱ្យខ្ញុំត្រៀមខ្លួនធ្វើជាជំនួយការ និង 
+មិត្ត​ម្នាក់​សម្រាប់​អ្នក​រាល់​គ្នា។</p>
+                    <a href="https://ame.nattapat2871.online/" class="more-button" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="950">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">Ame Api</div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">API ដែលបង្កើតឡើងដោយផ្ទាល់ខ្លួនសម្រាប់ 
+ការទៅយកទម្រង់អ្នកប្រើប្រាស់ Discord និងទិន្នន័យស្ថានភាពក្នុងពេលជាក់ស្តែង។ វាផ្តល់នូវជួរដ៏ទូលំទូលាយនៃ 
+ព័ត៌មាន ជាមួយនឹងសមត្ថភាពសំខាន់ៗ រួមមាន ស្ថានភាពព័ត៌មាន និងសកម្មភាព</p>
+                    <a href="https://api.ame.nattapat2871.online/" class="more-button" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="950">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">😁</div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">New project coming soon...</p>
+                    <a href="#" class="more-button" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="950">more...</a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">😁</div>
+                    <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="850">New project coming soon...</p>
+                    <a href="#" class="more-button" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="950">more...</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="address" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">📞 Tel : +85577881728<br>
+                    ✉️ Email : ggoombrkjv@gmail.com <br>
+                    នៅខេត្ត បន្ទាយមានជ័យ​។ ស្រុក មង្គលបូរី ឃំុគយម៉ែង ភូមិស្ដីក្រោម</div>
+                <br><br><br>
+                <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <span>Connect app</span>
+                </div>
+
+                <div class="contact-links">
+                    <div class="contact-links-tooltip"><a href="tel:0650282835" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="100"> <i class="fa-solid fa-phone"></i></a>
+                        <span class="contact-links-tooltip-text">Phone 77881828
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="https://github.com/ggoombrkjv-dotcom" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="200"> <i class="fa-brands fa-github"></i></a>
+                        <span class="contact-links-tooltip-text">github
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="mailto:nattapat2871@gmail.com" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="300"> <i class="fa-solid fa-envelope"></i></a>
+                        <span class="contact-links-tooltip-text">gmail
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="400"> <i class="fa-brands fa-line"></i></a>
+                        <span class="contact-links-tooltip-text">Line
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="https://web.facebook.com/y.not.hong.204914" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="500"> <i class="fa-brands fa-facebook"></i></a>
+                        <span class="contact-links-tooltip-text">facebook
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="600"> <i class="fa-brands fa-instagram"></i></a>
+                        <span class="contact-links-tooltip-text">instagram
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="https://discord.com/channels/@me"
+                            data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"> <i
+                                class="fa-brands fa-discord"></i></a>
+                        <span class="contact-links-tooltip-text">discord
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href=""
+                            data-aos="fade-up" data-aos-duration="500" data-aos-delay="800"> <i
+                                class="fa-brands fa-steam"></i></a>
+                        <span class="contact-links-tooltip-text">steam
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="_" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="900"> <i class="fa-brands fa-twitch"></i></a>
+                        <span class="contact-links-tooltip-text">twitch
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="1000"> <i class="fa-brands fa-x-twitter"></i></a>
+                        <span class="contact-links-tooltip-text">x
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="https://www.tiktok.com/@endyounow0" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="1100"> <i class="fa-brands fa-tiktok"></i></a>
+                        <span class="contact-links-tooltip-text">tiktok
+                        </span>
+                    </div>
+                    <div class="contact-links-tooltip"><a href="
+                            data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200"> <i
+                                class="fa-solid fa-cube"></i></a>
+                        <span class="contact-links-tooltip-text">NameMC
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <a href="#home" id="backToTopBtn" title="backToTop">
+        <img src="C:\Users\7PC\Desktop\—Pngtree—cambodia flag transparent with fabric_5311988.png" alt="backToTop">
+    </a>
+
+
+
+    <footer>
+        <div class="text">
+            <span>Create By
+                <a href="#">Yun Hong</a>
+                &#169 2025 All Right Reserved
+            </span>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+</body>
+
+</html>
